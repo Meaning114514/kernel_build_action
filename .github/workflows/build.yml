@@ -20,11 +20,11 @@ jobs:
           kernel-branch: VK-VI
           config: crux_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
           ksu: true
           ksu-version: main
           android-version: 12
           aosp-clang-version: r383902
           disable-lto: true
-          anykernel3: true
+          anykernel3: false
