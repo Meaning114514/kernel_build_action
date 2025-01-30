@@ -17,7 +17,7 @@ jobs:
       with:
           kernel-url: https://github.com/TheVoyager0777/Kernel_Xiaomi_SM8150_R.git
           kernel-dir: msm-4.14
-          kernel-branch: VK-VI
+          kernel-branch: miuicx-v2
           config: crux_defconfig
           arch: arm64
           aosp-gcc: true
@@ -27,4 +27,4 @@ jobs:
           android-version: 12
           aosp-clang-version: r383902
           disable-lto: true
-          anykernel3: false
+          anykernel3: true
