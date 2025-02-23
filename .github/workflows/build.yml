@@ -15,9 +15,9 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/TheVoyager0777/Kernel_Xiaomi_SM8150_R.git
+          kernel-url: https://github.com/Meaning114514/14.git
           kernel-dir: msm-4.14
-          kernel-branch: miuicx-v2
+          kernel-branch: crux
           config: crux_defconfig
           arch: arm64
           aosp-gcc: true
